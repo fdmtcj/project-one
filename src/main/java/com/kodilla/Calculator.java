@@ -2,8 +2,10 @@ package com.kodilla;
 
 public class Calculator {
 
-    public void addition() {
-        System.out.println("result=0");
+    public void addition(int a, int b) {
+        int result= a+b ;
+
+     System.out.println("Result= "+ result);
 
     }
     public void substraction(){
@@ -13,8 +15,11 @@ public class Calculator {
 
     public static void main(String[]args){
         Calculator calculator= new Calculator();
-        calculator.addition();
+        calculator.addition(2,5);
+        calculator.addition(4,6);
     }
+
+
 }
 
 
